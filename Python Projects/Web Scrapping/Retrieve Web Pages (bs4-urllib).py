@@ -1,3 +1,4 @@
+# Imported urllib and BeautifulSoup4 (from folder in the project files), and ssl.
 import urllib.parse, urllib.request, urllib.error
 from bs4 import BeautifulSoup
 import ssl
