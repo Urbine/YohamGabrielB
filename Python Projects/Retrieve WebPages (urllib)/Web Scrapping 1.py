@@ -9,10 +9,17 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 # Input values for URL, Position, and Count to initiate the process.
+# Try me: http://py4e-data.dr-chuck.net/known_by_Fikret.html
+# Position 3 / Count 4
+# Answer: Montgomery Mhairade Butchi Anayah
+
+# Try me: http://py4e-data.dr-chuck.net/known_by_Jemima.html
+# Position 18 / Count 7
+# Answer:
 url = input('Enter -')
 position = int(input('Enter Position -'))
 count = int(input('Enter Count -'))
-# Global "for" loop to iterate using the count input as a range.
+# Global "for" loop to iterate using the count input as a range value.
 for i in range(count):
     html = urllib.request.urlopen(url, context=ctx).read()
     soup = BeautifulSoup(html, 'html.parser')
@@ -29,3 +36,4 @@ for i in range(count):
 
 print("The answer is:", final[position - 1])
 # As you may notice I added '-1' to position, that's why not all users know that Python indexes start in '0'.
+

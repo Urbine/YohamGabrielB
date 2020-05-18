@@ -1,4 +1,4 @@
-#!"C:\Users\profe\PycharmProjects\Urllib 2\venv\Scripts\python.exe"
+#!"C:\Users\profe\PycharmProjects\Retrieve WebPages (urllib)\venv\Scripts\python.exe"
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==40.8.0','console_scripts','easy_install'
 __requires__ = 'setuptools==40.8.0'
 import re
