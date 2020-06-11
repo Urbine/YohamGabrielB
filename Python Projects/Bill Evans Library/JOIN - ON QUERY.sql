@@ -1,0 +1,1 @@
+SELECT Track.title, Artist.name, Album.title, Genre.name, Year.released FROM Track JOIN Artist JOIN Album JOIN Genre JOIN Year ON Track.album_id = Album.id AND Track.genre_id = Genre.id AND Album.artist_id = Artist.id and Track.year_id = Year.id
