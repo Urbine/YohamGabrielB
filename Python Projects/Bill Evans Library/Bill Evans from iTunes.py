@@ -94,11 +94,11 @@ for entry in all:
         continue
     else:
         try:
-            ExtractYear = re.findall('\d{4}', album)
-            NoYearInAlbum = re.findall('(\s\w.*$)', album)
-            CleanAlbum = str(NoYearInAlbum[0])
+            extractYear = re.findall('\d{4}', album)
+            noYearinAlbum = re.findall('(\s\w.*$)', album)
+            cleanAlbum = str(noYearinAlbum[0])
 
-            print(name, artist, NoYearInAlbum[0], genre, ExtractYear[0])
+            print(name, artist, noYearinAlbum[0], genre, extractYear[0])
 
             cur.execute('''INSERT OR IGNORE INTO Artist (name) 
             VALUES ( ? )''', (artist,))
@@ -106,8 +106,8 @@ for entry in all:
             artist_id = cur.fetchone()[0]
 
             cur.execute('''INSERT OR IGNORE INTO Album (title, artist_id) 
-            VALUES ( ?, ? )''', (CleanAlbum, artist_id))
-            cur.execute('SELECT id FROM Album WHERE title = ? ', (CleanAlbum,))
+            VALUES ( ?, ? )''', (cleanAlbum, artist_id))
+            cur.execute('SELECT id FROM Album WHERE title = ? ', (cleanAlbum,))
             album_id = cur.fetchone()[0]
 
             cur.execute('''INSERT OR IGNORE INTO Genre (name) 
@@ -116,8 +116,8 @@ for entry in all:
             genre_id = cur.fetchone()[0]
 
             cur.execute('''INSERT OR IGNORE INTO Year (released) 
-            VALUES ( ? )''', (ExtractYear[0],))
-            cur.execute('SELECT id FROM Year WHERE released = ? ', (ExtractYear[0],))
+            VALUES ( ? )''', (extractYear[0],))
+            cur.execute('SELECT id FROM Year WHERE released = ? ', (extractYear[0],))
             year_id = cur.fetchone()[0]
 
             cur.execute('''INSERT OR REPLACE INTO Track
