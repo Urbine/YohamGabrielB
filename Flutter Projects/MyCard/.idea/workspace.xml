@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d91bcb64-e290-4d16-bc1a-5531f49fe46e" name="Default Changelist" comment="" />
+    <list default="true" id="d91bcb64-e290-4d16-bc1a-5531f49fe46e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
     <list id="454b707a-ffb0-4340-9d85-58d8e92d5f4a" name="MyCard App committed from Android Studio." comment="" />
     <list id="9b966346-d20c-4fcf-b799-7337c975c12a" name="Revert &quot;MyCard App committed from Android Studio.&quot;" comment="Revert &quot;MyCard App committed from Android Studio.&quot;&#10;&#10;This reverts commit 5ac05a42" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,10 +92,10 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="138" y="0" key="CommitChangelistDialog2" timestamp="1599427521169">
+    <state x="138" y="0" key="CommitChangelistDialog2" timestamp="1599434463125">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="138" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599427521169" />
+    <state x="138" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599434463125" />
     <state x="338" y="167" key="FileChooserDialogImpl" timestamp="1597271969902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -139,9 +142,9 @@
     </state>
     <state x="227" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599429176488" />
     <state x="255" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1366.0.1366.728@0.0.1536.824" timestamp="1597273290501" />
-    <state x="294" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599427385072">
+    <state x="294" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599434412700">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="294" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1599427385072" />
+    <state x="294" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1599434412700" />
   </component>
 </project>
