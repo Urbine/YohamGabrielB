@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d91bcb64-e290-4d16-bc1a-5531f49fe46e" name="Default Changelist" comment="Revert &quot;MyCard App committed from Android Studio.&quot;&#10;&#10;This reverts commit 5ac05a42">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d91bcb64-e290-4d16-bc1a-5531f49fe46e" name="Default Changelist" comment="Revert &quot;MyCard App committed from Android Studio.&quot;&#10;&#10;This reverts commit 5ac05a42" />
     <list id="454b707a-ffb0-4340-9d85-58d8e92d5f4a" name="MyCard App committed from Android Studio." comment="" />
     <list id="9b966346-d20c-4fcf-b799-7337c975c12a" name="Revert &quot;MyCard App committed from Android Studio.&quot;" comment="Revert &quot;MyCard App committed from Android Studio.&quot;&#10;&#10;This reverts commit 5ac05a42" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,10 +134,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.728@0.0.1366.728" timestamp="1599058112455" />
-    <state x="227" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1599429176488">
+    <state x="227" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1599673630368">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="227" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599429176488" />
+    <state x="227" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1599673630368" />
     <state x="255" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1366.0.1366.728@0.0.1536.824" timestamp="1597273290501" />
     <state x="294" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599434412700">
       <screen x="0" y="0" width="1366" height="728" />
