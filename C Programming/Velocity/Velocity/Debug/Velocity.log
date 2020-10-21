@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\profe\Desktop\C Programs\Velocity\Velocity\main.c(63,25): warning C4305: '*=': truncation from 'double' to 'float'
+  Velocity.vcxproj -> C:\Users\profe\Desktop\C Programs\Velocity\Debug\Velocity.exe
