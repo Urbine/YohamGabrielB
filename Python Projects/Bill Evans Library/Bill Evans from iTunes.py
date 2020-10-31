@@ -1,5 +1,6 @@
-# This program will parse an iTunes Library XML file and insert its contents into a SQL Database
-# I am using my personal library which contains part of the Bill Evans' discography
+# This program will parse an iTunes Library XML file
+# and insert its contents into a SQL Database.
+# I am using my personal library which contains part of the Bill Evans' discography.
 import xml.etree.ElementTree as ET
 import sqlite3
 import re
@@ -65,7 +66,6 @@ def lookup(d, key):
         if child.tag == 'key' and child.text == key:
             found = True
     return None
-# User defined function here :)
 
 # I start to parse the XML with ElementTree and the lookup function
 stuff = ET.parse(fname)
