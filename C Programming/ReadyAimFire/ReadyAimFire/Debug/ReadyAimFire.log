@@ -1,7 +1,0 @@
-﻿  main.c
-C:\Users\profe\Desktop\C Programs\4-Ready-Aim-Fire-Programming-Assignment-Materials\main.c(58,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\profe\Desktop\C Programs\4-Ready-Aim-Fire-Programming-Assignment-Materials\main.c(63,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\profe\Desktop\C Programs\4-Ready-Aim-Fire-Programming-Assignment-Materials\main.c(64,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\profe\Desktop\C Programs\4-Ready-Aim-Fire-Programming-Assignment-Materials\main.c(95,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\profe\Desktop\C Programs\4-Ready-Aim-Fire-Programming-Assignment-Materials\main.c(99,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  ReadyAimFire.vcxproj -> C:\Users\profe\Desktop\C Programs\ReadyAimFire\Debug\ReadyAimFire.exe
